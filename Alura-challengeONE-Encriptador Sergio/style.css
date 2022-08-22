@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #8E2DE2;
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+  background: linear-gradient(to right, #4A00E0, #8E2DE2); 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.sup{
+  width: 30px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.titulo {
+  padding: 20px;
+  width: 40vw;
+  margin: auto;
+  color: black;
+  margin-top: 50px;
+
+}
+
+.lab {
+  color: rgb(8, 2, 2);
+ 
+}
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: #DDDEDE;
+  border-radius: 0.5em;
+  width: 30vw;
+  height: 13vw;
+ 
+}
+
+.btn {
+  border: 0;
+  color: rgb(29, 27, 27);
+  font-weight: bold;
+  background-color: rgb(240, 162, 116);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.3em;
+  width: 100%;
+  height: 100px;
+  background-color:#fcfcfa;
+  overflow:hidden;
+ 
+}
+.git{
+  margin-top: 7%;
+  margin-left: 15px;
+}
+
+footer { 
+  text-align: center;
+  width: 100%;
+  height: 10%;
+  padding: 1px;
+  bottom: 0;
+  position:fixed;
+  background-color: black;
+ 
+}
+.logo{
+  text-align:center;
+  height: 100%;
+}
+
+.pie{
+  margin-top: 5px;
+  font-size:15px;
+  color:white;
+  text-decoration: underline;
+  font-style: oblique;
+}
+
